@@ -1,2 +1,3 @@
 name = "cherrikka"
-pages_build_output_dir = "./dist"
+pages_build_output_dir = "./frontend/dist"
+build_command = "cd frontend && npm install && npm run build"
